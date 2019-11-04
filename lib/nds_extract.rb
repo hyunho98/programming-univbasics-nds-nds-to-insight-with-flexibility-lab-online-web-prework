@@ -110,7 +110,7 @@ def movies_with_directors_set(source)
     index += 1
   end
 
-  pp flatten_a_o_a(output)
+  output
 end
 
 # ----------------    End of Your Code Region --------------------
