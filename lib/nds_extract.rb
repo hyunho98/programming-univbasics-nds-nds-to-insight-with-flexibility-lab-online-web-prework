@@ -53,7 +53,7 @@ def movies_with_director_key(name, movies_collection)
 
   while index < movies_collection.length do
     output[index] <<
-      {name => movies_collection[:title]}
+      movie_with_director_name(name, movies_collection[index])
   end
 end
 
