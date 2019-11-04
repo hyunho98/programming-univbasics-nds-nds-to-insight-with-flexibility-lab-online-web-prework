@@ -104,7 +104,7 @@ def movies_with_directors_set(source)
   while index < source.length do
     movindex = 0
     while movindex < source[index][:movies].length do
-      output << [{title: source[index][:movies][movindex], director_name: source[index][:name]}]
+      output << [{title: source[index][:movies][movindex][:title], director_name: source[index][:name]}]
       movindex += 1
     end
     index += 1
