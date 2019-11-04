@@ -110,6 +110,7 @@ def movies_with_directors_set(source)
     index += 1
   end
 
+  output
 end
 
 # ----------------    End of Your Code Region --------------------
